@@ -1,0 +1,12 @@
+################ English language ##################
+[en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+[fr]
+languageName = "French"
+languageCode = "fr-FR"
+contentDir = "content/french"
+weight = 1

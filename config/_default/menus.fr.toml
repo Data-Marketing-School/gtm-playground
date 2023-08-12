@@ -1,0 +1,83 @@
+############# French navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+weight = 2
+name = "Clics"
+hasChildren = true
+
+[[main]]
+parent = "Clics"
+name = "Clics sur les liens"
+url = "liens/"
+
+[[main]]
+parent = "Clics"
+name = "Clics sur les éléments"
+url = "clics/"
+
+[[main]]
+weight = 4
+name = "Engagement utilisateur"
+hasChildren = true
+
+[[main]]
+parent = "Engagement utilisateur"
+name = "Formulaire"
+url = "form/"
+
+[[main]]
+parent = "Engagement utilisateur"
+name = "Profondeur de défilement"
+url = "scroll/"
+
+[[main]]
+parent = "Engagement utilisateur"
+name = "Vidéo YouTube"
+url = "video-yt/"
+
+[[main]]
+parent = "Engagement utilisateur"
+name = "Visibilité de l'élément"
+url = "element-visible/"
+
+[[main]]
+name = "Autre"
+url = "autre/"
+hasChildren = true
+
+[[main]]
+parent = "Autre"
+name = "Modifications de l'historique"
+url = "modifications-historique/"
+
+[[main]]
+parent = "Autre"
+name = "Événement personnalisé"
+url = "evenement-personalise/"
+
+[[main]]
+parent = "Autre"
+name = "Erreur Javascript"
+url = "erreur-javascript/"
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
