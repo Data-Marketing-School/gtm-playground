@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
       - name: Deploy Mini Server
-        run: npm run mini-server
+        run: node mini-server/express.js
