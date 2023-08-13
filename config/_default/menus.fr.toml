@@ -47,6 +47,26 @@ name = "Visibilité de l'élément"
 url = "element-visible/"
 
 [[main]]
+weight = 4
+name = "Formulaires"
+hasChildren = true
+
+[[main]]
+parent = "Formulaires"
+name = "Form Submit"
+url = "form-page-reload/"
+
+[[main]]
+parent = "Formulaires"
+name = "AJAX"
+url = "form-ajax/"
+
+[[main]]
+parent = "Formulaires"
+name = "Avec page de remerciement"
+url = "form-thank-you/"
+
+[[main]]
 name = "Autre"
 url = "autre/"
 hasChildren = true

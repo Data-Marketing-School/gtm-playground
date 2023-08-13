@@ -1,5 +1,5 @@
 ---
-title: "Formulaire"
+title: "Formulaire avec auto-event Form Submit + redirection page de remerciement"
 meta_title: ""
 description: "this is meta description"
 draft: false
@@ -7,7 +7,7 @@ draft: false
 
 <div class="flex min-h-full flex-col justify-center px-6 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-    <form class="space-y-6" action="#" method="POST">
+    <form class="space-y-6" action="/fr/thank-you-page" method="POST">
       <div>
         <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Adresse mail</label>
         <div class="mt-2">

@@ -5,12 +5,6 @@ description: "this is meta description"
 draft: false
 ---
 
-Code de l'élément : 
-
-```html
-<div id="rectangle" style="margin:auto; display:none; width:80%; height:3000px;background-color:red;"></div>
-```
-
 <button id="toggle-cta" class="mx-auto rounded-md bg-indigo-600 px-8 py-4 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="toggle_rectangle">Faire apparaître l'élément</button>
 
 <div id="rectangle" style="margin:auto; display:none; width:80%; height:3000px;background-color:red;"></div>
